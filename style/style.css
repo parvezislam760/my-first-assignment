@@ -135,3 +135,36 @@ nav{
     border-radius: 10px;
 }
 
+/* section2 */
+.stats-section{
+    text-align: center;
+    padding: 60px 10%;
+    background: #f0f2ff;
+    max-width: 920px;
+    margin-left: 160px;
+    border-radius: 15px;
+}
+
+
+.stats-section h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.stats-box{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.stat h3{
+    font-size: 70px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    color: #000000;
+    font-size: 14px;
+}
