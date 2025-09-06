@@ -327,10 +327,6 @@ h2{
     transition: 0.3s;
 }
 
-.contact-right button:hover{
-    background: #4E47FF;
-}
-
 /* footer */
 footer{
     text-align: center;
@@ -366,4 +362,14 @@ footer nav a {
 
 footer nav a:hover {
     color: #4a56e2;
+}
+
+button{
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: gold;
+    color: #FFFFFF;
 }
